@@ -30,45 +30,45 @@ To use Email Message Delivery Automation, simply download the repository and mak
 **Activate 2 step verification on the sender's google account**
 > I took this gif from the video https://www.youtube.com/@ThePyCoach
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/Enable 2 step verification.gif">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/Enable 2 step verification.gif">
 </p>
 
 **Activate app passwords in google account**
 > I took this gif from the video https://www.youtube.com/@ThePyCoach
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/Use app passwords in google account.gif">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/Use app passwords in google account.gif">
 </p>
 
 Edit the **email_sender** and **password_sender** values ​​in the python code automate_message_email.py
 **Activate app passwords in google account**
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/user_credential_settings.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/user_credential_settings.png">
 </p>
 
 Enter the message sentence that will be sent into the file **message.txt**. Below is an example of the message I will send.
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/sample_message_file_contents.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/sample_message_file_contents.png">
 </p>
 
 Make sure the recipient's email has been entered into the excel file **email_account_recipient.xls**. Make sure the email is in the first column.
 > The position of the recipient email column in the excel file can be adjusted by editing line 28 in the automate_message_email.py python file
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/column_location.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/column_location.png">
 </p>
 
 Make sure the name of the file or attachment to be sent matches yours. Whether it's jpg, png, pdf, doc, excel, and others.
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/attachment_name.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/attachment_name.png">
 </p>
 
 Make sure all existing files such as **email_account_recipient.xls**, **message.txt**,**automate_message_email.py** and **file attachments** are in one directory.
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/location_all_file.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/location_all_file.png">
 </p>
 
 After everything is correct, the python file can be executed. The output if the message is successfully sent will be as below.
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/message_successful_sent.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/message_successful_sent.png">
 </p>
 
 
@@ -94,19 +94,19 @@ python3 automate_message_email.py
 Make sure **email_sender** and **password_sender** values ​​in the python code are correct.
 
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/error_user_credential.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/error_user_credential.png">
 </p>
 
 2.  Error due to incorrect **File Name**
 Make sure **file name** values ​​in the python code are correct.
 
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/error_file_name_incorrect.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/error_file_name_incorrect.png">
 </p>
 
 3.  Error due to unsupported files
 Make sure **email_account_recipient** is in .xls file format.
 
 <p align="center">
-	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/ImageContent/xlsx_not_supported.png">
+	<img src="https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/ImageContent/xlsx_not_supported.png">
 </p>
