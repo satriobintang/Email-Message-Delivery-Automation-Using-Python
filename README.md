@@ -79,7 +79,7 @@ https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python
 ```
 **OR**
 - Zip Download the Repository and Extract it's contents.
-2.  Now run the [Email Message Delivery Automation](https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python) file directly in your Terminal using
+2.  Now run the [Email Message Delivery Automation](https://github.com/satriobintang/Email-Message-Delivery-Automation-Using-Python/blob/main/automate_message_email.py) file directly in your Terminal using
 ```
 python automate_message_email.py
 ```
